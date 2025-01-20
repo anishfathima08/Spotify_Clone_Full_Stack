@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scroll Bar Hide */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 0;
+    height: 0;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 0;
+    height: 0;
+}
+
+
+
+
