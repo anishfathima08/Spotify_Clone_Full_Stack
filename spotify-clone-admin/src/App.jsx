@@ -7,7 +7,7 @@ import ListAlbum from './pages/ListAlbum'
 import Sidebar from './components/Sidebar'
 import 'react-toastify/dist/ReactToastify.css'
 import {Routes, Route} from 'react-router-dom'
-import { ToastContainer, toast } from 'react-toastify'
+import { ToastContainer } from 'react-toastify'
 
 export const url = 'https://spotify-clone-backend-7m33.onrender.com'
 
