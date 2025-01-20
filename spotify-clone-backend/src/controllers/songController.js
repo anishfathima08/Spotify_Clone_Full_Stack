@@ -61,21 +61,6 @@ const removeSong = async (req, res) => {
     }
 }
 
-// const searchBox = async (req, res) => {
-//     if(req.params){
-//         let name = req.params.name;
-//         try{
-//             let j = await songModel.find({
-//                 name : { $regex : name }
-//             })
-//             res.json(j)
-            
-//         } catch (error){
-//             console.log(error);
-//         }
-//     }
-// }
-
 const searchBox = async (req, res) => {
     const { name } = req.params; 
 
