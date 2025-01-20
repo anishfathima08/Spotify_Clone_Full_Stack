@@ -17,12 +17,7 @@ connectCloudinary();
 // Middlewares
 
 app.use(express.json());
-// app.use(cors());
-const cors = require('cors');
-app.use(cors({
-  origin: '*', // Allow all origins, or specify your frontend URL
-}));
-
+app.use(cors());
 
 // Initializing Routes
 
