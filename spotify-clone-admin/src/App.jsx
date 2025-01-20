@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import {Routes, Route} from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify'
 
-export const url = 'http://localhost:8080'
+export const url = 'https://spotify-clone-backend-7m33.onrender.com'
 
 const App = () => {
 
