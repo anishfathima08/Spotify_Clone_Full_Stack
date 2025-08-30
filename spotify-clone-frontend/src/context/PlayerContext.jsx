@@ -136,6 +136,24 @@ const PlayerContextProvider = (props) => {
         getSongsData()
     }, [])
 
+    const [ searchInput , setSearchInput ] = useState("")
+    const [ filteredData , setFilteredData ] = useState([])
+    
+    const SearchSong = (e) => {
+        const value = e.target.value;
+        setSearchInput(value);
+    
+            if (value.trim() === "") {
+                setFilteredData([]); 
+            } else {
+                setFilteredData(
+                songsData.filter((a) =>
+                    a.name.toLowerCase().includes(value.toLowerCase())
+                )
+                )
+        }
+    }
+
     const contextValue = {
         audioRef,
         seekBar,
@@ -149,7 +167,8 @@ const PlayerContextProvider = (props) => {
         seekSong,
         songsData, albumsData,
         volume, handleVolumeChange,
-        isMuted, toggleMute
+        isMuted, toggleMute,
+        SearchSong, filteredData
     }
 
     return(
