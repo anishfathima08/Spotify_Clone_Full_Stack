@@ -46,6 +46,6 @@ To run this project locally, follow the steps below:
    
   2. Open the index.html file in your browser.
 
-  3. Enjoy exploring the CareCollege website!
+  3. Enjoy exploring the Spotify Clone website!
 
 Thank you for visiting my Spotify Clone Website! 🎵
