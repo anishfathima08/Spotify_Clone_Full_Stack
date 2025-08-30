@@ -40,11 +40,11 @@ It also integrates **Cloudinary** for media storage.
 ## Installation:
 To run this project locally, follow the steps below:
 
-1. Clone the repository:
+  1. Clone the repository:
    ```bash
    git clone https://github.com/anishfathima08/Spotify_Clone_Full_Stack.git
    
-  2. Open the index.html file in your browser.
+  2. Run using this command 'npm install npm run dev'
 
   3. Enjoy exploring the Spotify Clone website!
 
